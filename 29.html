@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+</head>
+
+<body>
+    <div>
+        <h1>Book Store</h1>
+        <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="Get">
+        <input type="hidden" value="mohamed">
+        <div>
+            <label>Username</label>
+            <input type="text" value="adham" required placeholder="Username" name="user" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text" name="subject" autofocus>
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" minlength="10" maxlength="18" required placeholder="Write A Complex Password"
+                name="pass">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" disabled required placeholder="Write A Valid Email" value="o@nn.sa" name="mail">
+        </div>
+        <div>
+            <label>color</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label>Range</label>
+            <input type="range" name="range" min="0" max="100" step="20" value="80">
+        </div>
+        <div>
+            <label>Number</label>
+            <input type="number" name="range" min="10" max="100" step="10" value="10">
+        </div>
+        <hr>
+        <div>
+            <input id="win" type="radio" name="os" value="windows" checked>
+            <label for="win">windows</label>
+        </div>
+        <div>
+            <input id="apple" type="radio" name="os" value="mac">
+            <label for="apple">MAC</label>
+
+        </div>
+        <div>
+            <input id="linux" type="radio" name="os" value="linux">
+            <label for="linux">linux</label>
+
+        </div>
+        <input type="submit" value="Save">
+        <input type="reset" value="reset">
+        <hr>
+        <div>
+            <input id="win1" type="checkbox" name="os" value="windows" checked>
+            <label for="win1">windows</label>
+        </div>
+        <div>
+            <input id="apple1" type="checkbox" name="os" value="mac">
+            <label for="apple1">MAC</label>
+
+        </div>
+        <div>
+            <input id="linux1" type="checkbox" name="os" value="linux">
+            <label for="linux1">linux</label>
+        </div>
+        <input type="submit" value="Save">
+        <input type="reset" value="reset">
+    </form>
+</body>
+
+</html>
