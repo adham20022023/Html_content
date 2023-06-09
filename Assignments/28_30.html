@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>my webpag</title>
+    <meta name="Decription" content="This is My webpage for learn programming">
+    <style></style>
+    <link rel="stylesheet" href="">
+    <script></script>
+</head>
+
+<body>
+    <form method="get">
+        <div>
+            <label for="username">Username</label>
+            <br>
+            <input id="username" name="username" autofocus required maxlength="20" minlength="5" type="text">
+        </div>
+        <hr>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="email" value="o@o.com" name="email" readonly>
+        </div>
+        <div>
+            <label hidden for="Token">Token</label>
+            <br>
+            <input id="Token" name="Token" type="text" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+        </div>
+        <hr>
+        <label><b>Skills</b></label>
+        <br>
+        <br>
+        <div>
+            <input name="skills" id="h1" type="checkbox" value="Problem Solving">
+            <label for="h1">Problem Solving</label>
+        </div>
+        <div>
+            <input name="skills" id="h2" type="checkbox" value="Logical Thinking">
+            <label for="h2"> Logical Thinking</label>
+        </div>
+        <div>
+            <input name="skills" checked id="h3" type="checkbox" value="Advanced Search">
+            <label for="h3"> Advanced Search</label>
+        </div>
+        <div>
+            <input name="skills" id="h4" type="checkbox" value="Analysis">
+            <label for="h4">Analysis</label>
+        </div>
+        <div>
+            <input name="skills" id="h5" type="checkbox" value="planning">
+            <label for="h5">planning</label>
+        </div>
+        <hr>
+        <label><b>Job</b></label>
+        <br>
+        <br>
+        <div>
+            <input type="radio" name="job" id="Front-End" checked value="Front-End" />
+            <label for="Front-End">Front-End developer</label>
+        </div>
+        <div>
+            <input checked type="radio" name="job" id="Back-End" value="Back-End" />
+            <label for="Back-End">Back-End developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="Project" value="Project" />
+            <label for="Project">Project Manager</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="Business" value="Business" />
+            <label for="Business">Business Analyst</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="Scrum" value="Scrum" />
+            <label for="Scrum">Scrum Master</label>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <label>Choose Book:</label>
+            <select name="languages versions" id="versions">
+                <optgroup label="PHP">
+                    <option value="5">v5.0</option>
+                    <option value="6">v6.0</option>
+                    <option value="7">v7.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="2">v2.0</option>
+                    <option value="3">v3.0</option>
+                    <option value="4">3.9</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <textarea name="bref" id="bref" cols="30" rows="10"
+                placeholder="Write Here Why You Went To learn Programming"></textarea>
+        </div>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
